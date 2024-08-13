@@ -11,7 +11,7 @@ echo -e "\033[32mInstalling current Linux headers...\033[0m"
 apt install linux-headers-$(uname -r) -y
 
 # Download and install xtables-addons
-XTA_VERSION="3.26"
+XTA_VERSION="3.19"
 XTA_URL="https://inai.de/files/xtables-addons/xtables-addons-${XTA_VERSION}.tar.xz"
 XTA_DIR="/tmp/xtables-addons-${XTA_VERSION}"
 
